@@ -1,0 +1,33 @@
+/* CSS for the "Back to Top" button */
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+  display: none; /* Hide the button by default */
+}
+
+.back-to-top.show {
+  display: block; /* Show the button when it's needed */
+}
+
+/* Customize the button styles as needed */
+.back-to-top button {
+  width: 50px;
+  height: 50px;
+  background-color: #7ab730;
+  color: #fff;
+  border-color: #7AB730;
+  border-radius: 10%;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.back-to-top button:hover {
+  background-color: #5e882a;
+ 
+}

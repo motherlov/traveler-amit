@@ -1,0 +1,68 @@
+.nav-item {
+  font-size: 0.89rem;
+}
+
+.modal-title {
+  padding-bottom: 50px;
+}
+.profile-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 370px;
+  width: 100%;
+  background: #fff;
+  border-radius: 24px;
+  padding: 25px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
+  position: relative;
+}
+
+.profile-card::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  background-color: #0eaf7c;
+  height: 36%;
+  width: 100%;
+  border-radius: 24px 24px 0 0;
+}
+
+.image {
+  position: relative;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background-color: aqua;
+  margin-left: 15px;
+  padding: 3px;
+  margin-bottom: 10px;
+}
+
+.image .profile-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #fff;
+}
+
+.profile-card .text-data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #333;
+}
+
+.text-data .name {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.text-data .job {
+  font-size: 15px;
+  font-weight: 400;
+}
